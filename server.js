@@ -45,6 +45,9 @@ app.get('/api/notes', (req, res) => {
     res.json(notes);
 });
 
+
+// ======== PORT DETAILS ======
+
 //Port location
 const PORT = process.env.PORT || 3001;
 

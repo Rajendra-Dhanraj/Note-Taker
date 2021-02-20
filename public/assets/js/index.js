@@ -59,6 +59,8 @@ const renderActiveNote = () => {
     noteTitle.value = activeNote.title;
     noteText.value = activeNote.text;
   } else {
+    noteTitle.removeAttribute('readonly', true);
+    noteText.removeAttribute('readonly', true);
     noteTitle.value = '';
     noteText.value = '';
   }
@@ -102,6 +104,9 @@ const handleNoteView = (e) => {
 
 // Sets the activeNote to and empty object and allows the user to enter a new note
 const handleNewNoteView = (e) => {
+  // altertnative?
+  // location.reload();
+
   activeNote = {};
   renderActiveNote();
 };
