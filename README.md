@@ -38,7 +38,7 @@ npm i
 
 ### Deployed-Application
 
-[Click to view Live Website on Heroku](link goes here "Note-Taker")
+[Click to view Live Website on Heroku](https://notetaker-dhanraj.herokuapp.com/ "Note-Taker")
 
 ### License
 
