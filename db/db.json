@@ -1,9 +1,14 @@
 {
   "notes": [
     {
-      "title": "This is title text",
-      "text": "This is note text",
-      "id": 1
+      "title": "Note title text",
+      "text": "Note text example",
+      "id": 0.2052883570267081
+    },
+    {
+      "title": "Another note",
+      "text": "another text",
+      "id": 0.9691303262560265
     }
   ]
 }
